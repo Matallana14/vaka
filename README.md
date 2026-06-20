@@ -183,11 +183,6 @@ Este proyecto se distribuye bajo licencia MIT. Eres libre de usarlo, modificarlo
 
 ## 👤 Autor
 
-Hecho con 🐄 y mucho café por [Mario Matallana](https://github.com/Matallana14) desde Bogotá, Colombia.
-
-Si te gusta el proyecto, dale una ⭐ al repo para apoyar.
-## 👤 Autor
-
-Hecho con 🐄 y mucho café por [Mario Matallana](https://github.com/Matallana14) desde Bogotá, Colombia.
+Hecho con  por Matallana14 (https://github.com/Matallana14) desde Bogotá, Colombia.
 
 Si te gusta el proyecto, dale una ⭐ al repo para apoyar.
