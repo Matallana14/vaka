@@ -22,7 +22,37 @@ El dinero real lo sigues manejando tú por tus medios habituales (banco, Nequi, 
 
 ---
 
-## 🤔 ¿Por qué usar Vaka entonces?
+## 🤖 Sobre el desarrollo con IA (transparencia total)
+
+Vaka fue construida usando **Claude (Anthropic) como pair programmer**. Creo en la transparencia sobre esto, así que aquí está la verdad completa:
+
+### Lo que hice yo (el desarrollador):
+- Definí todas las funcionalidades y la visión del producto
+- Tomé todas las decisiones de arquitectura
+- Diseñé el flujo de UX y la experiencia del usuario
+- Probé cada cambio en un dispositivo real
+- Rechacé aproximadamente el 30% de las sugerencias de la IA cuando no encajaban con mi visión
+- Decidí qué NO incluir (scope discipline)
+- Manejo el feedback de los usuarios y priorizo los bugs
+
+### Lo que hizo la IA:
+- Me ayudó con sintaxis de Kotlin que no dominaba
+- Generó boilerplate que de otro modo habría copiado de Stack Overflow
+- Sugirió patrones de arquitectura para que yo evaluara
+- Me ayudó a debuggear errores
+- Aceleró considerablemente mi proceso de aprendizaje
+
+### Mi reflexión honesta:
+
+Empecé a aprender Kotlin y Jetpack Compose poco antes de empezar este proyecto. Sin asistencia de IA, esta app habría tomado meses; con asistencia, fue cuestión de semanas. **No es magia: es una metodología que requiere entender lo que se está construyendo.**
+
+Si eres dev junior y te preguntas si "vale" usar IA: yo creo que sí, pero **solo si entiendes el código que estás enviando a producción**. La IA te acelera el aprendizaje, no lo reemplaza.
+
+El código de Vaka es **open source** precisamente para que cualquiera pueda revisarlo, criticarlo, mejorarlo o aprender de él (con todos sus aciertos y errores).
+
+---
+
+## 🤔 ¿Por qué usar Vaka?
 
 Porque "hacer la vaca" en la vida real es un caos:
 - *"¿Cuánto va Pedro?"* 🤷
@@ -82,6 +112,7 @@ Vaka resuelve eso: **un lugar único donde todos ven cuánto ha aportado cada un
 - **Conversión de monedas:** ExchangeRate-API (gratis, sin clave)
 - **QR:** ZXing
 - **Notificaciones:** WorkManager
+- **Pair programming:** Claude (Anthropic)
 
 ---
 
@@ -173,6 +204,8 @@ El desarrollador no se hace responsable de:
 
 ¿Encontraste un bug o tienes una idea? Abre un [issue](https://github.com/Matallana14/vaka/issues) o un pull request.
 
+Todas las contribuciones son bienvenidas, incluyendo críticas al código (tanto el mío como el generado con asistencia de IA).
+
 ---
 
 ## 📄 Licencia
@@ -183,6 +216,6 @@ Este proyecto se distribuye bajo licencia MIT. Eres libre de usarlo, modificarlo
 
 ## 👤 Autor
 
-Hecho con  por Matallana14 (https://github.com/Matallana14) desde Bogotá, Colombia.
+Hecho con 🐄, café y asistencia de IA por [Mario Matallana](https://github.com/Matallana14) desde Bogotá, Colombia.
 
 Si te gusta el proyecto, dale una ⭐ al repo para apoyar.
